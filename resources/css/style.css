@@ -1,0 +1,1869 @@
+@media (max-width: 2070px) {
+
+
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Sedan","DM Serif Display", serif;
+    font-weight: 400;
+    font-style: normal;
+    list-style: none;
+    text-decoration: none;
+  }
+
+  header {
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.25% 9%;
+    background: #f6f4f1;
+  }
+
+
+
+  body {
+    background: #ebebeb;
+    height: 274.0741vh;
+  }
+  .body {
+    background: rgb(218, 216, 216);
+    width: 85%;
+    margin: 0 auto;
+    height: 91.4815vh;
+  }
+
+  ul {
+    margin: auto;
+  }
+  .navlist {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+  }
+
+  .navlist a {
+    color: #5b5247;
+    margin-left: 2.2396vw;
+    margin-right: 2.2396vw;
+    font-weight: 10;
+    border-bottom: 0.1042vw solid transparent;
+    transition: all 0.55s ease;
+    font-size: 0.9896vw;
+    justify-content: center;
+    height: 100%;
+  }
+
+  .navlist a.centerUI{
+    color: #5b5247;
+    margin-left: 3.6458vw;
+    margin-right: 2.2396vw;
+    font-weight: 10;
+    border-bottom: 0.1042vw solid transparent;
+    transition: all 0.55s ease;
+    font-size: 2.0833vw;
+    justify-content: center;
+    height: 100%;
+  }
+
+  .navlist a:hover {
+    border-bottom: 0.1042vw solid #5b5247;
+  }
+
+  #menu-icon {
+    color: #5b5247;
+    font-size: 2.5vw;
+    z-index: 10001;
+    cursor: pointer;
+  }
+
+  .main {
+    padding-top: 2.5vw;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-left: 0.8333vw;
+  }
+
+  .main-image {
+    width: 22%;
+    height: auto;
+    margin-top: 10%;
+    z-index: 100;
+    position: relative;
+  }
+
+  button {
+    text-align: center;
+    position: relative;
+    z-index: 100;
+    width: 22%;
+    margin-top: 2%;
+    font-size: 1.3021vw;
+    font-family: "DM Serif Display", serif;
+    cursor: pointer;
+    padding-top: 0.9259vh;
+    padding-bottom: 0.9259vh;
+    border-radius: 0.2083vw;
+    border: none;
+    text-decoration: none;
+  }
+
+
+
+  .subjects h1 {
+    text-align: center;
+    padding-top: 12%;
+    font-size: 2.5vw;
+    font-weight: 100;
+    padding-bottom: 2%;
+  }
+
+  .subjects table {
+    margin: auto;
+    text-align: center;
+
+    z-index: 100;
+    position: relative;
+  }
+
+  .subjects td {
+    padding: 2.5vw;
+    margin: auto;
+    text-align: center;
+  }
+
+  .subimg {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+  }
+
+  .subjects table tr td table {
+    padding: none;
+  }
+
+  .box {
+    width: 60%;
+    height: 59.2593vh;
+    background-color: #f6f4f1;
+
+    margin: 0 auto;
+    z-index: 50;
+    position: absolute;
+    left: 20%;
+  }
+
+  table.subjects {
+    position: relative;
+    z-index: 100;
+    margin-top: 2%;
+  }
+
+  .subjects table table td button {
+    background-color: #e4dfd7;
+    font-size: 1.0417vw;
+    width: 80%;
+    padding: none;
+  }
+
+  .subjects table table td {
+    padding: 0.8333vw;
+  }
+
+  p {
+    text-align: center;
+    padding-top: 7%;
+    font-size: 1.0417vw;
+  }
+
+  .moreinfo {
+    margin-top: 5%;
+    background-color: #ffffff;
+    width: 100%;
+    padding: 3em 0;
+    display: flex;
+    text-align: center;
+  }
+  .moreinfo table{
+    margin: 0 auto;
+  }
+
+  .moreinfo table td {
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .moreinfo table td h1 {
+    font-weight: 100;
+    padding-bottom: 1.4815vh;
+    font-size: 1.6667vw;
+  }
+
+  .moreinfo table td h2 {
+    font-weight: 100;
+    font-size: 1.25vw;
+    padding: 0 2.5vw 1.4815vh 2.5vw;
+  }
+
+  .moreinfo table img{
+    width: 30.1563vw;
+    height: auto;
+  }
+
+  .footer {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    top: 16%;
+  }
+  .footer table {
+    border-top: 0.0521vw solid black;
+    width: 80%;
+    margin: auto;
+    position: relative;
+    height: 7.4074vh;
+    padding-top: 1.4815vh;
+    top: 168.8889vh;
+  }
+
+  .footer a {
+    text-decoration: none;
+    color: black;
+  }
+
+  .bodyofficer {
+    background: rgb(218, 216, 216);
+    width: 85%;
+    margin: 0 auto;
+    height: 370vh;
+    background-color: whitesmoke;
+  }
+
+  .bodyofficer h1 {
+    margin: 0 auto;
+    padding-top: 15vh;
+    text-align: center;
+    font-size: 3em
+  }
+
+  .bodyofficer .lefttable{
+    height: 20vh; 
+    margin-right: 20vw;
+    background-color: #d9d9d900;
+    margin-top: 8vh;
+  }
+
+  .bodyofficer .lefttable img{
+    width: 15.4167vw;
+    height: auto;
+    padding: 0.9259vh 0 0.9259vh 2.6042vw;
+    margin-left: 2.6042vw;
+  }
+
+  .bodyofficer .lefttext{
+    padding-left: 6.5083vw;
+    padding-right: 5.2083vw; 
+    text-align: center;
+  }
+
+  .bodyofficer .righttable{
+    height: 20vh;
+    margin-left: 20vw;
+    background-color: #d9d9d900;
+    margin-top: 8vh;
+  }
+
+  .bodyofficer .righttext{
+    padding-right: 5.9083vw;
+    padding-left: 5.2083vw;
+    text-align: center;
+    
+    
+  }
+
+  .bodyofficer .righttable img{
+    width: 15.4167vw;
+    height: auto;
+    padding: 0.9259vh 2.6042vw 0.9259vh 0;
+    margin-right: 2.6042vw;
+  }
+
+  .bodycontact{
+    width: 100%;
+    height: 100vh;
+    background-color: whitesmoke;
+  }
+
+  .bodycontact table{
+    text-align: center;
+    margin: auto;
+    text-decoration: none;
+    line-height: 2.963vh;
+  }
+
+  .bodysocial{
+    height: 95%;
+    background-color: whitesmoke;
+    width: 90%;
+    margin: auto;
+  }
+
+  .bodysocial table{
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 25%;
+    border: 0.0521vw solid #ddd;
+    display: inline-block;
+    margin-top: 10.4167vw;
+    margin-left: 4.1667vw;
+    background-color: rgb(218, 212, 211);
+    
+  }
+
+  .bodysocial table td{
+    padding: 0.9259vh,0.5208vw;
+    text-align: center;
+
+  }
+
+  .bodysocial img{
+    width: 15.625vw;
+    height: auto;
+    
+  }
+
+  .socialtable{
+    margin-left: 4.6875vw;
+  }
+
+  .bodyabout h1{
+    font-family: "Kanit";
+  }
+
+  .bodyabout h2{
+    font-family: "Kanit";
+  }
+
+  .bodyabout h3{
+    font-family: "Kanit";
+  }
+
+  .bodyabout img{
+    height: 75vh; 
+    width: auto;
+  }
+
+  .socialfooter{
+    margin-top: 10vh;
+  }
+
+  .socialfooter table td{
+    background-color: #ebebeb;
+  }
+  .info .sign{
+    margin-top: 16.2037vh; text-align: center
+  }
+
+  .contactfoot table{
+    top: 5.4074vh;
+  }
+}
+@media (max-width: 1240px) {
+
+
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Sedan","DM Serif Display", serif;
+    font-weight: 400;
+    font-style: normal;
+    list-style: none;
+    text-decoration: none;
+  }
+
+  header {
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.25% 9%;
+    background: #f6f4f1;
+  }
+
+
+
+  body {
+    background: #ebebeb;
+    height: 274.0741vh;
+  }
+  .body {
+    background: rgb(218, 216, 216);
+    width: 85%;
+    margin: 0 auto;
+    height: 91.4815vh;
+  }
+
+  ul {
+    margin: auto;
+  }
+  .navlist {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+  }
+
+  .navlist a {
+    color: #5b5247;
+    margin-left: 2.2396vw;
+    margin-right: 2.2396vw;
+    font-weight: 10;
+    border-bottom: 0.1042vw solid transparent;
+    transition: all 0.55s ease;
+    font-size: 0.9896vw;
+    justify-content: center;
+    height: 100%;
+  }
+
+  .navlist a.centerUI{
+    color: #5b5247;
+    margin-left: 3.6458vw;
+    margin-right: 2.2396vw;
+    font-weight: 10;
+    border-bottom: 0.1042vw solid transparent;
+    transition: all 0.55s ease;
+    font-size: 2.0833vw;
+    justify-content: center;
+    height: 100%;
+  }
+
+  .navlist a:hover {
+    border-bottom: 0.1042vw solid #5b5247;
+  }
+
+  #menu-icon {
+    color: #5b5247;
+    font-size: 2.5vw;
+    z-index: 10001;
+    cursor: pointer;
+  }
+
+  .main {
+    padding-top: 2.5vw;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-left: 0.8333vw;
+  }
+
+  .main-image {
+    width: 22%;
+    height: auto;
+    margin-top: 10%;
+    z-index: 100;
+    position: relative;
+  }
+
+  button {
+    text-align: center;
+    position: relative;
+    z-index: 100;
+    width: 22%;
+    margin-top: 2%;
+    font-size: 1.3021vw;
+    font-family: "DM Serif Display", serif;
+    cursor: pointer;
+    padding-top: 0.9259vh;
+    padding-bottom: 0.9259vh;
+    border-radius: 0.2083vw;
+    border: none;
+    text-decoration: none;
+  }
+
+
+
+  .subjects h1 {
+    text-align: center;
+    padding-top: 12%;
+    font-size: 2.5vw;
+    font-weight: 100;
+    padding-bottom: 2%;
+  }
+
+  .subjects table {
+    margin: auto;
+    text-align: center;
+
+    z-index: 100;
+    position: relative;
+  }
+
+  .subjects td {
+    padding: 2.5vw;
+    margin: auto;
+    text-align: center;
+  }
+
+  .subimg {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+  }
+
+  .subjects table tr td table {
+    padding: none;
+  }
+
+  .box {
+    width: 60%;
+    height: 59.2593vh;
+    background-color: #f6f4f1;
+
+    margin: 0 auto;
+    z-index: 50;
+    position: absolute;
+    left: 20%;
+  }
+
+  table.subjects {
+    position: relative;
+    z-index: 100;
+    margin-top: 2%;
+  }
+
+  .subjects table table td button {
+    background-color: #e4dfd7;
+    font-size: 1.0417vw;
+    width: 80%;
+    padding: none;
+  }
+
+  .subjects table table td {
+    padding: 0.8333vw;
+  }
+
+  p {
+    text-align: center;
+    padding-top: 7%;
+    font-size: 1.0417vw;
+  }
+
+  .moreinfo {
+    margin-top: 5%;
+    background-color: #ffffff;
+    width: 100%;
+    padding: 3em 0;
+    display: flex;
+    text-align: center;
+  }
+  .moreinfo table{
+    margin: 0 auto;
+  }
+
+  .moreinfo table td {
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .moreinfo table td h1 {
+    font-weight: 100;
+    padding-bottom: 1.4815vh;
+    font-size: 1.6667vw;
+  }
+
+  .moreinfo table td h2 {
+    font-weight: 100;
+    font-size: 1.25vw;
+    padding: 0 2.5vw 1.4815vh 2.5vw;
+  }
+
+  .moreinfo table img{
+    width: 30.1563vw;
+    height: auto;
+  }
+
+  .footer {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    top: 16%;
+  }
+  .footer table {
+    border-top: 0.0521vw solid black;
+    width: 80%;
+    margin: auto;
+    position: relative;
+    height: 7.4074vh;
+    padding-top: 1.4815vh;
+    top: 168.8889vh;
+  }
+
+  .footer a {
+    text-decoration: none;
+    color: black;
+  }
+
+  .bodyofficer {
+    background: rgb(218, 216, 216);
+    width: 85%;
+    margin: 0 auto;
+    height: 360vh;
+    background-color: whitesmoke;
+  }
+
+  .bodyofficer h1 {
+    margin: 0 auto;
+    padding-top: 15vh;
+    text-align: center;
+    font-size: 3em
+  }
+
+  .bodyofficer .lefttable{
+    height: 20vh; 
+    margin-right: 20vw;
+    background-color: #d9d9d900;
+    margin-top: 8vh;
+  }
+
+  .bodyofficer .lefttable img{
+    width: 15.4167vw;
+    height: auto;
+    padding: 0.9259vh 0 0.9259vh 2.6042vw;
+    margin-left: 2.6042vw;
+  }
+
+  .bodyofficer .lefttext{
+    padding-left: 6.5083vw;
+    padding-right: 5.2083vw; 
+    text-align: center;
+  }
+
+  .bodyofficer .righttable{
+    height: 20vh;
+    margin-left: 20vw;
+    background-color: #d9d9d900;
+    margin-top: 8vh;
+  }
+
+  .bodyofficer .righttext{
+    padding-right: 5.9083vw;
+    padding-left: 5.2083vw;
+    text-align: center;
+    
+    
+  }
+
+  .bodyofficer .righttable img{
+    width: 15.4167vw;
+    height: auto;
+    padding: 0.9259vh 2.6042vw 0.9259vh 0;
+    margin-right: 2.6042vw;
+  }
+
+  .bodycontact{
+    width: 100%;
+    height: 100vh;
+    background-color: whitesmoke;
+  }
+
+  .bodycontact table{
+    text-align: center;
+    margin: auto;
+    text-decoration: none;
+    line-height: 2.963vh;
+  }
+
+  .bodysocial{
+    height: 95%;
+    background-color: whitesmoke;
+    width: 90%;
+    margin: auto;
+  }
+
+  .bodysocial table{
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 25%;
+    border: 0.0521vw solid #ddd;
+    display: inline-block;
+    margin-top: 10.4167vw;
+    margin-left: 4.1667vw;
+    background-color: rgb(218, 212, 211);
+    
+  }
+
+  .bodysocial table td{
+    padding: 0.9259vh,0.5208vw;
+    text-align: center;
+
+  }
+
+  .bodysocial img{
+    width: 15.625vw;
+    height: auto;
+    
+  }
+
+  .socialtable{
+    margin-left: 4.6875vw;
+  }
+
+  .bodyabout h1{
+    font-family: "Kanit";
+  }
+
+  .bodyabout h2{
+    font-family: "Kanit";
+  }
+
+  .bodyabout h3{
+    font-family: "Kanit";
+  }
+
+  .bodyabout img{
+    height: 75vh; 
+    width: auto;
+  }
+
+  .socialfooter{
+    margin-top: 10vh;
+  }
+
+  .socialfooter table td{
+    background-color: #ebebeb;
+  }
+  .info .sign{
+    margin-top: 16.2037vh; text-align: center
+  }
+
+  .contactfoot table{
+    top: 5.4074vh;
+  }
+}
+@media (max-width: 1953px) {
+
+
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Sedan","DM Serif Display", serif;
+    font-weight: 400;
+    font-style: normal;
+    list-style: none;
+    text-decoration: none;
+  }
+
+  header {
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.25% 9%;
+    background: #f6f4f1;
+  }
+
+
+
+  body {
+    background: #ebebeb;
+    height: 274.0741vh;
+  }
+  .body {
+    background: rgb(218, 216, 216);
+    width: 85%;
+    margin: 0 auto;
+    height: 91.4815vh;
+  }
+
+  ul {
+    margin: auto;
+  }
+  .navlist {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+  }
+
+  .navlist a {
+    color: #5b5247;
+    margin-left: 2.2396vw;
+    margin-right: 2.2396vw;
+    font-weight: 10;
+    border-bottom: 0.1042vw solid transparent;
+    transition: all 0.55s ease;
+    font-size: 0.9896vw;
+    justify-content: center;
+    height: 100%;
+  }
+
+  .navlist a.centerUI{
+    color: #5b5247;
+    margin-left: 3.6458vw;
+    margin-right: 2.2396vw;
+    font-weight: 10;
+    border-bottom: 0.1042vw solid transparent;
+    transition: all 0.55s ease;
+    font-size: 2.0833vw;
+    justify-content: center;
+    height: 100%;
+  }
+
+  .navlist a:hover {
+    border-bottom: 0.1042vw solid #5b5247;
+  }
+
+  #menu-icon {
+    color: #5b5247;
+    font-size: 2.5vw;
+    z-index: 10001;
+    cursor: pointer;
+  }
+
+  .main {
+    padding-top: 2.5vw;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-left: 0.8333vw;
+  }
+
+  .main-image {
+    width: 22%;
+    height: auto;
+    margin-top: 10%;
+    z-index: 100;
+    position: relative;
+  }
+
+  button {
+    text-align: center;
+    position: relative;
+    z-index: 100;
+    width: 22%;
+    margin-top: 2%;
+    font-size: 1.3021vw;
+    font-family: "DM Serif Display", serif;
+    cursor: pointer;
+    padding-top: 0.9259vh;
+    padding-bottom: 0.9259vh;
+    border-radius: 0.2083vw;
+    border: none;
+    text-decoration: none;
+  }
+
+
+
+  .subjects h1 {
+    text-align: center;
+    padding-top: 12%;
+    font-size: 2.5vw;
+    font-weight: 100;
+    padding-bottom: 2%;
+  }
+
+  .subjects table {
+    margin: auto;
+    text-align: center;
+
+    z-index: 100;
+    position: relative;
+  }
+
+  .subjects td {
+    padding: 2.5vw;
+    margin: auto;
+    text-align: center;
+  }
+
+  .subimg {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+  }
+
+  .subjects table tr td table {
+    padding: none;
+  }
+
+  .box {
+    width: 60%;
+    height: 59.2593vh;
+    background-color: #f6f4f1;
+
+    margin: 0 auto;
+    z-index: 50;
+    position: absolute;
+    left: 20%;
+  }
+
+  table.subjects {
+    position: relative;
+    z-index: 100;
+    margin-top: 2%;
+  }
+
+  .subjects table table td button {
+    background-color: #e4dfd7;
+    font-size: 1.0417vw;
+    width: 80%;
+    padding: none;
+  }
+
+  .subjects table table td {
+    padding: 0.8333vw;
+  }
+
+  p {
+    text-align: center;
+    padding-top: 7%;
+    font-size: 1.0417vw;
+  }
+
+  .moreinfo {
+    margin-top: 5%;
+    background-color: #ffffff;
+    width: 100%;
+    padding: 3em 0;
+    display: flex;
+    text-align: center;
+  }
+  .moreinfo table{
+    margin: 0 auto;
+  }
+
+  .moreinfo table td {
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .moreinfo table td h1 {
+    font-weight: 100;
+    padding-bottom: 1.4815vh;
+    font-size: 1.6667vw;
+  }
+
+  .moreinfo table td h2 {
+    font-weight: 100;
+    font-size: 1.25vw;
+    padding: 0 2.5vw 1.4815vh 2.5vw;
+  }
+
+  .moreinfo table img{
+    width: 30.1563vw;
+    height: auto;
+  }
+
+  .footer {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    top: 16%;
+  }
+  .footer table {
+    border-top: 0.0521vw solid black;
+    width: 80%;
+    margin: auto;
+    position: relative;
+    height: 7.4074vh;
+    padding-top: 1.4815vh;
+    top: 168.8889vh;
+  }
+
+  .footer a {
+    text-decoration: none;
+    color: black;
+  }
+
+  .bodyofficer {
+    background: rgb(218, 216, 216);
+    width: 85%;
+    margin: 0 auto;
+    height: 410vh;
+    background-color: whitesmoke;
+  }
+
+  .bodyofficer h1 {
+    margin: 0 auto;
+    padding-top: 15vh;
+    text-align: center;
+    font-size: 3em
+  }
+
+  .bodyofficer .lefttable{
+    height: 20vh; 
+    margin-right: 20vw;
+    background-color: #d9d9d900;
+    margin-top: 8vh;
+  }
+
+  .bodyofficer .lefttable img{
+    width: 15.4167vw;
+    height: auto;
+    padding: 0.9259vh 0 0.9259vh 2.6042vw;
+    margin-left: 2.6042vw;
+  }
+
+  .bodyofficer .lefttext{
+    padding-left: 6.5083vw;
+    padding-right: 5.2083vw; 
+    text-align: center;
+  }
+
+  .bodyofficer .righttable{
+    height: 20vh;
+    margin-left: 20vw;
+    background-color: #d9d9d900;
+    margin-top: 8vh;
+  }
+
+  .bodyofficer .righttext{
+    padding-right: 5.9083vw;
+    padding-left: 5.2083vw;
+    text-align: center;
+    
+    
+  }
+
+  .bodyofficer .righttable img{
+    width: 15.4167vw;
+    height: auto;
+    padding: 0.9259vh 2.6042vw 0.9259vh 0;
+    margin-right: 2.6042vw;
+  }
+
+  .bodycontact{
+    width: 100%;
+    height: 100vh;
+    background-color: whitesmoke;
+  }
+
+  .bodycontact table{
+    text-align: center;
+    margin: auto;
+    text-decoration: none;
+    line-height: 2.963vh;
+  }
+
+  .bodysocial{
+    height: 95%;
+    background-color: whitesmoke;
+    width: 90%;
+    margin: auto;
+  }
+
+  .bodysocial table{
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 25%;
+    border: 0.0521vw solid #ddd;
+    display: inline-block;
+    margin-top: 10.4167vw;
+    margin-left: 4.1667vw;
+    background-color: rgb(218, 212, 211);
+    
+  }
+
+  .bodysocial table td{
+    padding: 0.9259vh,0.5208vw;
+    text-align: center;
+
+  }
+
+  .bodysocial img{
+    width: 15.625vw;
+    height: auto;
+    
+  }
+
+  .socialtable{
+    margin-left: 4.6875vw;
+  }
+
+  .bodyabout h1{
+    font-family: "Kanit";
+  }
+
+  .bodyabout h2{
+    font-family: "Kanit";
+  }
+
+  .bodyabout h3{
+    font-family: "Kanit";
+  }
+
+  .bodyabout img{
+    height: 75vh; 
+    width: auto;
+  }
+
+  .socialfooter{
+    margin-top: 10vh;
+  }
+
+  .socialfooter table td{
+    background-color: #ebebeb;
+  }
+  .info .sign{
+    margin-top: 16.2037vh; text-align: center
+  }
+
+  .contactfoot table{
+    top: 5.4074vh;
+  }
+}
+@media (max-width: 480px){
+
+  body{
+    height: 50vh;
+  }
+  .body{
+    height: 25vh;
+  }
+  .subjects{
+    margin-top: -15vh;
+    margin-bottom: 6vh;
+  }
+
+  .box{
+    height: 17vh;
+  }
+
+  .footer{
+    margin-top: -90vh;
+  }
+
+ .footer table{
+    margin-top:0vh;
+ }
+ 
+  .footer a{
+    font-size: 1.25vw;
+  }
+
+  .footer td{
+    font-size: 1.25vw;
+  }
+
+  .bodyabout h1{
+    font-size: 1.6667vw;
+    font-family: "Kanit";
+
+  }
+
+  .bodyabout h2{
+    font-size: 1.25vw;
+    font-family: "Kanit";
+  }
+
+  .bodyabout h3{
+    font-size: 0.975vw;
+    font-family: "Kanit";
+  }
+
+  .bodyabout img{
+    width: 32.3438vw;
+    height: auto;
+  }
+
+  .bodyofficer h1{
+    font-size: 2.5vw;
+  }
+
+  .bodyofficer td.lefttext{
+    font-size: 1.8333vw;
+    
+  }
+
+  .bodyofficer td.righttext{
+    font-size: 1.8333vw;
+}
+
+  .bodyofficer td{
+    height: 4.6296vh;
+    
+  }
+  .footer .officerfooter {
+    position: absolute;
+    margin-top: 220vh;
+  }
+
+  .footer .officerfooter table{
+    width: 70vw;
+    display: none;
+  }
+  
+  .footer .officerfooter table td{
+    width: 3.1563vw;
+  }
+
+  .info h1{
+    font-size: 1.6667vw;
+}
+  .info p{
+    font-size: 1.0417vw;
+  }
+
+  .info table{
+    width: auto;
+    height: 3.8889vh;
+  }
+
+  .signfoot{
+    display: none;
+  }
+  .socialfooter{
+    display: none;
+  }
+  .socialtable td h1{
+    font-size: 1.6667vw;
+  }
+
+  .socialtable td{
+    font-size: 1.8333vw;
+    width: 80vw;
+  }
+
+  .bodysocial table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 33%;
+    border: 0.0521vw solid #ddd;
+    
+    margin-top: 10.4167vw;
+    margin-left: 26.5vw;
+    margin-right: auto;
+    }
+
+    .bodysocial{
+      height: 140vh;
+    }
+
+
+    .bodycontact h1{
+      font-size: 1.6667vw;
+    }
+
+    .bodycontact h3{
+      font-size: 0.975vw;
+      padding-top: 1px;
+    }
+
+    .bodycontact{
+      height: 90%;
+    }
+
+    .info .sign{
+      margin-top: 6.2037vh; text-align: center
+    }
+
+    .contactfoot table{
+      display: none;
+    }
+}
+@media (max-width: 430px){
+
+  body{
+    height: 50vh;
+  }
+  .body{
+    height: 25vh;
+  }
+  .subjects{
+    margin-top: -15vh;
+    margin-bottom: 6vh;
+  }
+
+  
+
+  header{
+    height: 18vh;
+  }
+
+  .navlist li a{
+    font-size: 10px;
+  }
+
+  /* Hide the centerUI link */
+  body .navlist a.centerUI {
+    display: none; /* Hide the UI Tutoring link */
+  }
+
+  /* Use CSS Grid to control the layout */
+  .navlist {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Create two equal-width columns */
+    list-style-type: none; /* Remove default bullet points */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margin */
+    gap: 10px; /* Add space between items */
+  }
+
+  /* Place each item manually, skipping the hidden centerUI */
+  .navlist li:nth-child(1) {
+    grid-column: 1;
+    grid-row: 1;
+  }
+
+  .navlist li:nth-child(2) {
+    grid-column: 2;
+    grid-row: 1;
+  }
+
+  .navlist li:nth-child(3) {
+    grid-column: 1;
+    grid-row: 2;
+  }
+
+  .navlist li:nth-child(5) {
+    grid-column: 2;
+    grid-row: 2;
+  }
+
+  .navlist li:nth-child(6) {
+    grid-column: 1;
+    grid-row: 3;
+  }
+
+  .navlist li:nth-child(7) {
+    grid-column: 2;
+    grid-row: 3; /* Move Contact to the space previously occupied by centerUI */
+  }
+
+  /* Style the anchor tags */
+  .navlist li a {
+    display: block;
+    padding: 10px 15px;
+    color: #333;
+    text-decoration: none;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    font-size: 12px;
+  }
+
+  /* Hover effect for links */
+  .navlist li a:hover {
+    background-color: #f0f0f0;
+    color: #007BFF;
+  }
+  
+  .body{
+    padding-top: 100px;
+    background: #ebebeb;
+  }
+  .main{
+    padding-top: 50px;
+  }
+
+  .main img{
+    width: 100%;
+  }
+
+  .body .expl button{
+    width: 90%;
+    height: 100px;
+    border: 2px solid #3b4147;
+  }
+
+  .body .expl button  a{
+    font-size: 30px;
+  }
+
+  
+
+  .box{
+    height: 17vh;
+  }
+
+  .footer{
+    margin-top: -90vh;
+  }
+
+ .footer table{
+    margin-top:0vh;
+ }
+ 
+  .footer a{
+    font-size: 1.25vw;
+  }
+
+  .footer td{
+    font-size: 1.25vw;
+  }
+
+  .bodyabout h1{
+    font-size: 1.6667vw;
+    font-family: "Kanit";
+
+  }
+
+  .bodyabout h2{
+    font-size: 1.25vw;
+    font-family: "Kanit";
+  }
+
+  .bodyabout h3{
+    font-size: 0.975vw;
+    font-family: "Kanit";
+  }
+
+  .bodyabout img{
+    width: 32.3438vw;
+    height: auto;
+  }
+
+  .bodyofficer h1{
+    font-size: 2.5vw;
+  }
+
+  .bodyofficer td.lefttext{
+    font-size: 1.8333vw;
+    
+  }
+
+  .bodyofficer td.righttext{
+    font-size: 1.8333vw;
+}
+
+  .bodyofficer td{
+    height: 4.6296vh;
+    
+  }
+  .footer .officerfooter {
+    position: absolute;
+    margin-top: 220vh;
+  }
+
+  .footer .officerfooter table{
+    width: 70vw;
+    display: none;
+  }
+  
+  .footer .officerfooter table td{
+    width: 3.1563vw;
+  }
+
+  .info h1{
+    font-size: 1.6667vw;
+}
+  .info p{
+    font-size: 1.0417vw;
+  }
+
+  .info table{
+    width: auto;
+    height: 3.8889vh;
+  }
+
+  .signfoot{
+    display: none;
+  }
+  .socialfooter{
+    display: none;
+  }
+  .socialtable td h1{
+    font-size: 1.6667vw;
+  }
+
+  .socialtable td{
+    font-size: 1.8333vw;
+    width: 80vw;
+  }
+
+  .bodysocial table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 33%;
+    border: 0.0521vw solid #ddd;
+    
+    margin-top: 10.4167vw;
+    margin-left: 26.5vw;
+    margin-right: auto;
+    }
+
+    .bodysocial{
+      height: 140vh;
+    }
+
+
+    .bodycontact h1{
+      font-size: 1.6667vw;
+    }
+
+    .bodycontact h3{
+      font-size: 0.975vw;
+      padding-top: 1px;
+    }
+
+    .bodycontact{
+      height: 90%;
+    }
+
+    .info .sign{
+      margin-top: 6.2037vh; text-align: center
+    }
+
+    .contactfoot table{
+      display: none;
+    }
+
+    .subjects h1{
+      font-size: 40px;
+    }
+    .subjects {
+      display: flex; /* Use Flexbox to center content */
+      flex-direction: column; /* Stack items vertically */
+      align-items: center; /* Center items horizontally */
+      justify-content: center; /* Center items vertically */
+      height: 100vh; /* Make the table take up the full viewport height */
+      margin-top: -1000px;
+    }
+    
+    .subjects tr {
+      display: flex; /* Use Flexbox for the row */
+      flex-direction: column; /* Stack td elements vertically */
+      align-items: center; /* Center td elements horizontally */
+    }
+    
+    .subjects td {
+      display: block; /* Makes each cell a block element */
+      width: auto; /* Auto width for natural button sizing */
+      margin-bottom: 10px; /* Reduced space between the cells */
+    }
+    
+    /* Optional: Center align the buttons inside the table cells */
+    .subjects td button {
+      display: block;
+      margin: 0 auto; /* Center the buttons */
+      height: 29vh;
+      
+    }
+    .subjects table table td button {
+      background-color: #e4dfd7;
+      font-size: 25px;
+      width: 300px !important;
+      padding: none;
+      height: 34vh;
+  }
+    .subjects table table td button .bmath{
+      background-color: #e4dfd7;
+      font-size: 20px;
+      width: 300px !important;
+      padding: none;
+      display: none;
+  }
+    
+    /* Ensure inner tables take up full width of td */
+    .subjects td table {
+      width: 100%;
+    }
+
+    .box{
+      height: 73%;
+      width: 350px;
+      left: 9%;
+      
+    }
+    
+    .weoff{
+      font-size: 20px;
+    }
+
+    .moreinfo{
+      height: 72vh;
+    }
+
+    .moreinfo table td h1 {
+      font-weight: 100;
+      padding-bottom: 1.4815vh;
+      font-size: 40px;
+  }
+
+    .moreinfo table td h2 {
+      font-weight: 100;
+      padding-bottom: 1.4815vh;
+      font-size: 25px;
+  }
+
+  .footer  {
+    margin-top: 800px;
+    
+}
+
+  .footer table td a{
+    font-size: 7px ;
+  }
+
+  .bodyofficer h1 {
+    margin-top: 80px;
+    font-size: 50px;
+}
+
+
+.bodyofficer table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.bodyofficer td {
+  display: block;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 340px;
+  
+}
+
+.bodyofficer td img {
+  width: 100%;
+  max-width: 300px; /* Adjust as needed */
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.bodyofficer td h2 {
+  font-size: 3.5em;
+  margin-top: 10px;
+}
+
+.bodyofficer td h4 {
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+.lefttable {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.bodyofficer .righttable{
+  width: 100%;
+  margin-left: 0px;
+}
+
+
+
+.lefttext, .righttext {
+  text-align: center;
+  
+}
+
+.bodyofficer .lefttable img {
+  width: 60%;
+  height: auto;
+  padding: 0;
+  margin: 0 auto;
+  
+
+}
+
+.bodyofficer .righttable img {
+  width: 60%;
+  height: auto;
+  padding: 0;
+  margin: 0 auto;
+  padding-top: 20px;
+  margin-top: -20px;
+
+}
+
+.bodyofficer .lefttext .offf {
+  font-size: 20px;
+}
+
+.bodyofficer .righttext .offf {
+  font-size: 20px;
+}
+
+.bodyofficer td.lefttext {
+  margin-top: -100px;
+}
+
+.bodyofficer{
+  height: fit-content;
+  padding-bottom: 40px;
+}
+
+.socialtable{
+  padding-top: 120px;
+}
+
+.socialtable .column table tbody td{
+  width: 300px;
+}
+
+.bodysocial img {
+  width: 250px;
+  height: auto;
+}
+
+.bodysocial table{
+  margin-left: 35px;
+}
+
+.bodysocial table td{
+  font-size: 20px;
+}
+
+.bodysocial table td h1{
+  font-size: 40px;
+}
+.bodysocial table td p{
+  font-size: 30px;
+}
+
+.bodysocial table td button a{
+  font-size: 20px !important;
+}
+
+.bodysocial{
+  height: fit-content;
+}
+
+.abouttable {
+  width: 100%;
+  margin: auto;
+  top: 15vh;
+  position: relative;
+  display: block;
+}
+
+.abouttable tr {
+  display: block;
+  width: 100%;
+}
+
+.abouttable td {
+  display: block;
+  width: 100% !important;
+  text-align: center;
+  padding: 10px 0; /* Adjust padding as needed */
+}
+
+.abouttable img {
+  max-width: 90%; /* Ensure image scales within the container */
+  margin: 0 auto; /* Center the image */
+  display: block;
+}
+
+.bodyabout img {
+  width: 370px ;
+  height: auto;
+}
+
+.bodyabout h1 {
+  font-size: 30px;
+  font-family: "Kanit";
+}
+
+.bodyabout h2 {
+  font-size: 25px;
+  
+}
+
+.bodyabout h3 {
+  font-size: 20px;
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+  
+}
+
+.bodyabout{
+  height: 1450px !important;
+}
+
+.info .sign {
+  font-size: 50px;
+  margin-top: 175px;
+}
+
+.info table {
+  width: 100%;
+  margin: 0 auto;
+  display: block;
+}
+
+.info tr {
+  display: block;
+  width: 100%;
+}
+
+.info td {
+  display: block;
+  width: 100%;
+  text-align: center;
+  padding: 20px 0; /* Adjust padding as needed */
+}
+
+.info td h1 {
+  margin-bottom: 10px; /* Add spacing below the heading */
+  font-size: 35px;
+}
+
+.info td p {
+  padding: 0 20px; /* Add padding to text for better readability */
+  font-size: 20px;
+}
+
+.info td button {
+  width: 35vw !important;
+}
+
+.info td button a{
+  font-size: 30px;
+}
+
+.info button {
+  margin-top: 20px; /* Add margin for spacing */
+  padding: 10px;
+  background-color: #f0f0f0; /* Customize button background color */
+  border: none;
+  
+
+}
+
+.info td {
+  display: block;
+  width: 100%;
+  text-align: center;
+  padding: 20px 0; /* Adjust padding for content inside the td */
+  margin-bottom: 40px; /* Increase this value to add more vertical space between the td elements */
+}
+
+.info td:last-child {
+  margin-bottom: 0; /* Removes margin from the last td to prevent extra space at the bottom */
+}
+.bodycontact h1 {
+  font-size: 50px;
+}
+
+.bodycontact h3 a {
+  font-size: 20px;
+}
+
+.bodycontact h3 a img {
+  width: 100px;
+  
+}
+}
+
+
